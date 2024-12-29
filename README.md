@@ -85,3 +85,5 @@ An elegant e-commerce application to buy and sell plants and soils.
 - **Backend:** Firebase Authentication, Firebase Realtime Database, Firebase Storage  
 
 ---
+## Install the App:
+Alternatively, you can directly install the prebuilt APK in the repository under the releases folder.
