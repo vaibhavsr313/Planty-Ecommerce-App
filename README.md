@@ -50,11 +50,23 @@ An elegant e-commerce application to buy and sell plants and soils.
 
 ---
 ## 📱 Screenshots  
+### Homepage:  
+![Homepage](Homepage.png) 
+
+### Cart Page:  
+![Cart Page](Filled_cart_page.png) 
+
+### List Of Orders:  
+![List Of Orders](List_of_Orders.png) 
+
+### Login Page:  
+![Login Page](Login_page.png) 
+
 ### Admin Dashboard:  
 ![Admin Dashboard](Admin_DashBaord_Photo.jpg)  
 
-### Cart Page:  
-![Cart Page](Cart_Page.jpg)  
+###  Empty Cart Page:  
+![Empty Cart Page](Cart_Page.jpg)  
 
 ### Product Details:  
 ![Product Details](Detail_Page.jpg)  
