@@ -62,6 +62,9 @@ An elegant e-commerce application to buy and sell plants and soils.
 ### Payment Page:  
 ![Payment Page](Payment_Page.jpg)  
 
+### Add New Products Page in Admin:  
+![New Product Page](add_products_admin.png)  
+
 ---
 ## 🛠️ Tech Stack  
 - **Language:** Java  
