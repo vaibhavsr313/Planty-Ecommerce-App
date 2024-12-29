@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181A20"
+    tools:context=".editprofilepage">
+
+    <Button
+        android:id="@+id/editinedit"
+        android:layout_width="343dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/roundbtn"
+        android:drawableLeft="@drawable/baseline_edit_24"
+        android:drawablePadding="110dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="left|center"
+        android:text="Edit"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <EditText
+        android:id="@+id/Nameinedit"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/roundtext"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Change your name"
+        android:inputType="none|textPersonName"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/phoneinedit"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/roundtext"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Change your Number"
+        android:inputType="none|number|textPhonetic"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:drawablePadding="5dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="#45494A"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/Nameinedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edityourprifle"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Profileineditprofile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_3"
+
+            android:padding="1dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/edityourprifle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Edit your Profile"
+        android:textColor="#FEFEFE"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <EditText
+        android:id="@+id/Addressinedit"
+        android:layout_width="293dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="59dp"
+        android:background="@drawable/roundtext"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Change your Address"
+        android:inputType="textMultiLine"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591"
+        android:drawableLeft="@drawable/address"
+        android:drawablePadding="5dp"/>
+
+    <ImageButton
+        android:id="@+id/backineditedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#181A20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edityourprifle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    app:cardCornerRadius="20dp"
+    android:elevation="10dp"
+    app:cardBackgroundColor="@color/black"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="#000000"
+            android:id="@+id/photoinrc"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/nameinrc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:hint="Plant"
+            android:textColorHint="#000000"
+            android:padding="2dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat_medium"/>
+        <TextView
+            android:id="@+id/priceinrc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:hint="Price"
+            android:textColorHint="#000000"
+            android:padding="2dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat_medium"/>
+        <TextView
+            android:id="@+id/tempinrc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:hint="Price"
+            android:textColorHint="#000000"
+            android:padding="2dp"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat"/>
+        <TextView
+            android:id="@+id/waterinrc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:hint="Price"
+            android:textColorHint="#000000"
+            android:padding="2dp"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat"/>
+        <TextView
+            android:id="@+id/descinrc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:hint="Price"
+            android:textColorHint="#000000"
+            android:padding="2dp"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Planty30" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="cardBackgroundColor">@color/app_back</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ScreenBackgorund"><item name="android:background">@color/app_back</item></style>
+    <style name="CardBackground"><item name="android:background">@color/app_back</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/white</item></style>
+
+
+</resources>
